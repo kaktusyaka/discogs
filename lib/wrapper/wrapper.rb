@@ -100,7 +100,7 @@ class Discogs::Wrapper
   end
 
   def raise_unknown_resource(path='')
-    raise Discogs::UnknownResource, "Unknown Discogs resource: #{path}"
+    puts 'Nothing to found'
   end
 
   def raise_internal_server_error
